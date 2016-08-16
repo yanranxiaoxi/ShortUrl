@@ -11,7 +11,10 @@ ini_set('display_errors', 0);
 	<title><?php echo SITE_TITLE; ?></title>
 	<meta charset="UTF-8">
 	<style type="text/css">
-		a{
+        body{
+            font-family:微软雅黑,arial;
+        }
+        a{
 			text-decoration: none;
 			color: #000;
 			font-weight: bold;
