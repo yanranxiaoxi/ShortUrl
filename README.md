@@ -25,7 +25,7 @@ define('INDIRECTLYGO','0'); //开启跳转等待请将值更改为“1”，反�
 define('GOTIME','10');	//跳转等待的时间
   
 ```
-# 伪静态方法
+# 伪静态方式
 Apache
 ```java  
   
