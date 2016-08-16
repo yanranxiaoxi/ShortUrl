@@ -1,0 +1,159 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  font-size:10px;
+  line-height:21px;
+  font-family:arial,微软雅黑;
+  margin:30px auto;
+  padding:0 20px;
+  max-width: 1300px;
+  background: url(https://demo.domain.org/bg.png); /*更改为你的背景图片地址*/
+}a.update,a.copy,a.del,a.return{display:inline-block;color:#FFF;padding:1px 5px;}
+/*a {
+  outline: none;
+  -moz-outline: 0;
+  text-decoration: none;
+}*/
+#search{
+	background: #fff;
+	padding: 10px;
+
+	overflow: hidden;
+}
+#search p{
+	padding: 10px;
+	font-size: 15px;
+}
+
+input[type="text"]{
+	height: 30px;
+}
+hr{
+  margin: 15px 0px;
+
+}
+h2 {
+  font-size: 1.8em;
+  padding:5px;
+}
+h1{
+	font-size: 2.0em;
+	padding: 10px 0;
+	margin-bottom: 20px;
+}
+#error {
+  color: #d00;
+  margin: 0;
+  padding: 0;
+  margin-left: 15px;
+}
+
+#url_list {
+  margin-top: 16px;
+width: 100%;
+border: 1px solid #DEDEDE;
+background-color: #fff;
+}
+#url_list a {
+}
+#url_list thead th {
+background-image: url(./headerbg.png);
+text-align: left;
+height: 44px;
+font-size: 14px;
+padding: 10px;
+color: #FFFFFF;
+
+}
+#url_list td {
+  max-width: 500px;
+  max-height: 20px;
+  border-bottom: 1px dashed #DEDEDE;
+border-top: 0 none;
+color: #797268;
+padding: 5px 10px;
+overflow: hidden;
+}
+
+a.del {
+background: #9295A3;
+cursor: pointer;
+}
+
+a.update {
+background: #5BA533;
+}
+
+.left{
+
+	float: left;
+}
+
+.search_right{
+	float: right;
+}
+#search input[type="text"]{
+	width: 515px;
+	padding-left: 10px
+}
+input[type="text"]:focus
+{
+	transition:border linear .2s,box-shadow linear .5s;
+ 	-moz-transition:border linear .2s,-moz-box-shadow linear .5s;
+ 	-webkit-transition:border linear .2s,-webkit-box-shadow linear .5s;
+ 	outline:none;
+ 	border-color:rgba(3,126,212,.5);
+ 	box-shadow:0 0 8px rgba(3,126,202,.5);
+ 	-moz-box-shadow:0 0 8px rgba(3,126,212,.5);
+ 	-webkit-box-shadow:0 0 8px rgba(3,126,212,.3);
+
+}
+input,#search,#url_list{
+	background-color: #fff;
+border: 1px solid #ccc;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+-ms-border-radius: 4px;
+-o-border-radius: 4px;
+border-radius: 4px;
+vertical-align: middle;
+}
+
+input[type="submit"]{
+	padding: 7px 15px;
+}
+
+input[type="submit"]:hover{
+	background: #1986CB;
+	color: #fff;
+}
+
+a{
+	text-decoration: none;
+	color: #797268;
+	font-size: 15px;
+}
+
+a.update,a.del{
+margin-right: 5px;
+border-radius: 2px 2px 2px 2px;
+font-size: 8px;
+}
+.lank{
+	font-size: 2.5em;
+	font-weight: bold;
+}
+
+.header{
+	margin: 10px;
+
+}
+
+.header a{
+	color: #000;
+}
+a:hover{
+	color: #FF0000
+}
