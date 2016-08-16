@@ -78,10 +78,10 @@ ini_set('display_errors', 0);
 		}
 		.info{
 			text-align: center;
-			color: #0000ff;
+			color: #000000;
 		}
 		.info a{
-			color: #ff0000;
+			color: #66ccff;
 		}
 		a:hover{
 			color: #0000ff;
