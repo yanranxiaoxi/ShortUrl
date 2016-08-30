@@ -104,7 +104,8 @@ if (count($_GET) > 0) {
         $short_url = SITE_URL."/".$code;
         $_GET['url']   = "";
         $_GET['alias'] = "";
-        $info = "<p class=info>短地址创建成功！新地址：<strong><a href=\"http://".htmlentities($short_url) ."\" target=\"_blank\">".htmlentities($short_url)."</a></strong> </p>";
+        //$info = "<p class=info>短地址创建成功！新地址：<strong><a href=\"http://".htmlentities($short_url) ."\" target=\"_blank\">".htmlentities($short_url)."</a></strong> </p>";
+        $info = "<p class=info>短地址创建成功！新地址：<strong><a href=\"".htmlentities($short_url) ."\" target=\"_blank\">".htmlentities($short_url)."</a></strong> </p>";
         require_once("html/index.php");
         exit();
     }
