@@ -3,7 +3,7 @@
 # 什么是ShortUrl
 ShortUrl 是一个极简短网址程序，包含后台管理界面和清晰的配置文本。
 # Demo
-[Demo Web](https://yur.moe)
+[Demo Web](http://yur.moe)
 # 安装方式
 将“shorturl.sql”导入数据库，并编辑“config.php”
 ```java  
