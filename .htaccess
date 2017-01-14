@@ -1,0 +1,12 @@
+<IfModule mod_rewrite.c>
+   RewriteEngine on
+   RewriteOptions MaxRedirects=1
+   RewriteBase /
+   RewriteCond %{REQUEST_FILENAME} !-f
+   RewriteCond %{REQUEST_FILENAME} !-d
+   RewriteCond %{REQUEST_FILENAME} !-l
+   RewriteRule ^([a-zA-Z0-9_-]+)$ redirect.php?alias=$1 [L]
+# 如不需要使用SSL加密，请注释下方两行代码
+   RewriteCond %{SERVER_PORT} !^443$
+   RewriteRule ^(.*)?$ https://%{SERVER_NAME}/$1 [L,R]
+</IfModule>
