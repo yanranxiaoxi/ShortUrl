@@ -108,7 +108,7 @@ ini_set('display_errors', 0);
 	</form>
 </section>
 <footer>
-	<p>Copyright © <?php echo date('Y'); ?> <a href="http://team.moe-girl.co">萌娘基金会</a> , All Rights Reserved.</p>
+	<p>Copyright © <?php echo date('Y'); ?> <a href="https://team.moe-girl.co">Moe-Girl Team</a> , All Rights Reserved.</p>
 </footer>
 </body>
 </html>
