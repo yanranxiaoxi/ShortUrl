@@ -19,7 +19,7 @@ ini_set('display_errors', 0);
 
 <div class="header"><a class="lank" href="index.php">短网址 后台管理</a> <a href="/">返回首页</a>丨<a href="logout.php">退出</a></div>
 <?php
-$updateurl = "https://blog.karula.org/XiaoXi/GitHub/CollageTomato/ShortUrl/master/update.txt";
+$updateurl = "https://git.karula.org/ShortUrl/update.txt";
 $fh = fopen($updateurl, 'r');
 $version = fread($fh, 3);
 fclose($fh);
